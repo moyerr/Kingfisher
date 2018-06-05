@@ -127,8 +127,8 @@ public class ImagePrefetcher {
         let optionsInfoWithoutQueue = options?.removeAllMatchesIgnoringAssociatedValue(.callbackDispatchQueue(nil))
         self.optionsInfo = optionsInfoWithoutQueue ?? KingfisherEmptyOptionsInfo
         
-        let cache = self.optionsInfo.targetCache
-        let downloader = self.optionsInfo.downloader
+        let cache = self.optionsInfo.targetCache ?? .default
+        let downloader = self.optionsInfo.downloader ?? .default
         manager = KingfisherManager(downloader: downloader, cache: cache)
         
         self.progressBlock = progressBlock
