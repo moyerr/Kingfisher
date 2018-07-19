@@ -24,7 +24,6 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-
 #if os(macOS)
 import AppKit
 #else
@@ -35,7 +34,7 @@ import UIKit
 /**
  *    Set image to use from web.
  */
-extension Kingfisher where Base: ImageView {
+extension Kingfisher where Base: ViewWithImage {
     /**
      Set an image with a resource, a placeholder image, options, progress handler and completion handler.
      
@@ -159,7 +158,7 @@ private var indicatorTypeKey: Void?
 private var placeholderKey: Void?
 private var imageTaskKey: Void?
 
-extension Kingfisher where Base: ImageView {
+extension Kingfisher where Base: ViewWithImage {
     /// Get the image URL binded to this image view.
     public var webURL: URL? {
         return objc_getAssociatedObject(base, &lastURLKey) as? URL
@@ -257,7 +256,6 @@ extension Kingfisher where Base: ImageView {
     }
 }
 
-
-@objc extension ImageView {
+extension DisplaysImage where Self: View {
     func shouldPreloadAllAnimation() -> Bool { return true }
 }

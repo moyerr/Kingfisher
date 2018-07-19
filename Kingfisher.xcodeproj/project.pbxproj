@@ -177,6 +177,7 @@
 		4BFBEE7E1D7D0C3600699FD3 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFBEE7C1D7D0C3600699FD3 /* RequestModifier.swift */; };
 		4BFBEE7F1D7D0C3600699FD3 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFBEE7C1D7D0C3600699FD3 /* RequestModifier.swift */; };
 		4BFBEE801D7D0C3600699FD3 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFBEE7C1D7D0C3600699FD3 /* RequestModifier.swift */; };
+		735321012101465A0035A9E3 /* DisplaysImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735321002101465A0035A9E3 /* DisplaysImage.swift */; };
 		98A20535209CA0CA00738CD3 /* WKInterfaceImage+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A20533209C853400738CD3 /* WKInterfaceImage+Kingfisher.swift */; };
 		B8BBB7092D89EAC97D6ED888 /* libPods-KingfisherTests-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0268A213AE27BC6133BC5E0F /* libPods-KingfisherTests-macOS.a */; };
 		CCA25D271FD4713D00FA5C6E /* kingfisher-blend-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCA25D241FD4713D00FA5C6E /* kingfisher-blend-4.jpg */; };
@@ -464,6 +465,7 @@
 		4BFBEE7C1D7D0C3600699FD3 /* RequestModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
 		6CD5C0134AA4B1C0892E7319 /* Pods-KingfisherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingfisherTests/Pods-KingfisherTests.release.xcconfig"; sourceTree = "<group>"; };
 		7204D40BEFEA059FA25864C4 /* Pods-KingfisherTests-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherTests-macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KingfisherTests-macOS/Pods-KingfisherTests-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		735321002101465A0035A9E3 /* DisplaysImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplaysImage.swift; path = Sources/DisplaysImage.swift; sourceTree = "<group>"; };
 		98A20533209C853400738CD3 /* WKInterfaceImage+Kingfisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WKInterfaceImage+Kingfisher.swift"; path = "Sources/WKInterfaceImage+Kingfisher.swift"; sourceTree = "<group>"; };
 		9D0E767B01589AA8BE21FFA6 /* libPods-KingfisherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KingfisherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA25D241FD4713D00FA5C6E /* kingfisher-blend-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kingfisher-blend-4.jpg"; sourceTree = "<group>"; };
@@ -829,6 +831,7 @@
 				444C03E01F547AAE00990BCC /* Placeholder.swift */,
 				D10945F31C526B6C001408EB /* Resource.swift */,
 				4BD8E04B1D9237E200A091BE /* Kingfisher.swift */,
+				735321002101465A0035A9E3 /* DisplaysImage.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -1921,6 +1924,7 @@
 				D10945FE1C526B86001408EB /* Resource.swift in Sources */,
 				D10945FF1C526B86001408EB /* String+MD5.swift in Sources */,
 				4BB24C3D1D79215A00CD5F9C /* CacheSerializer.swift in Sources */,
+				735321012101465A0035A9E3 /* DisplaysImage.swift in Sources */,
 				D10946001C526B86001408EB /* ThreadHelper.swift in Sources */,
 				444C03E91F548F6100990BCC /* Placeholder.swift in Sources */,
 				F78F5EBD1FCDDE42001A9111 /* ImageModifier.swift in Sources */,

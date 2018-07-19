@@ -80,7 +80,7 @@ public enum ImageTransition {
     /// Custom transition.
     case custom(duration: TimeInterval,
                  options: UIViewAnimationOptions,
-              animations: ((UIImageView, UIImage) -> Void)?,
+              animations: ((DisplaysImage, UIImage) -> Void)?,
               completion: ((Bool) -> Void)?)
     
     var duration: TimeInterval {
@@ -111,7 +111,7 @@ public enum ImageTransition {
         }
     }
     
-    var animations: ((UIImageView, UIImage) -> Void)? {
+    var animations: ((DisplaysImage, UIImage) -> Void)? {
         switch self {
         case .custom(_, _, let animations, _): return animations
         default: return { $0.image = $1 }
